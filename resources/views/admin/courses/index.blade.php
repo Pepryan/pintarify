@@ -68,7 +68,7 @@
                                 {{ $course->title ?? '' }}
                             </td>
                             <td>
-                                {{ $course->description ?? '' }}
+                                {!! $course->description ?? '' !!}
                             </td>
                             <td>
                                 {{ number_format($course->price,0,',','.') ?? '' }}
